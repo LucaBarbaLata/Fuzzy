@@ -25,6 +25,7 @@ import net.mcreator.fuzzy.item.LycheeItem;
 import net.mcreator.fuzzy.item.CutiItem;
 import net.mcreator.fuzzy.item.CuteCreaturesItem;
 import net.mcreator.fuzzy.item.CirozaItem;
+import net.mcreator.fuzzy.item.BlueAppleItem;
 import net.mcreator.fuzzy.FuzzyMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -43,6 +44,7 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> LABUSHA_SPAWN_EGG = REGISTRY.register("labusha_spawn_egg", () -> new ForgeSpawnEggItem(FuzzyModEntities.LABUSHA, -16777216, -65383, new Item.Properties()));
 	public static final RegistryObject<Item> MOSSHEEP_SPAWN_EGG = REGISTRY.register("mossheep_spawn_egg", () -> new ForgeSpawnEggItem(FuzzyModEntities.MOSSHEEP, -16751104, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> MOSSY_BEEF = REGISTRY.register("mossy_beef", () -> new MossyBeefItem());
+	public static final RegistryObject<Item> BLUE_APPLE = REGISTRY.register("blue_apple", () -> new BlueAppleItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -275,6 +275,20 @@
           "src/main/java/net/mcreator/fuzzy/item/MossyBeefItem.java"
         ]
       }
+    },
+    {
+      "name": "BlueApple",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/blue_apple.json",
+          "src/main/java/net/mcreator/fuzzy/item/BlueAppleItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -321,6 +335,7 @@
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
       "effect.fuzzy.cuteness": "Cuteness",
+      "item.fuzzy.blue_apple": "Blue Apple",
       "item.fuzzy.starry_armor_helmet": "Starry Helmet"
     }
   },

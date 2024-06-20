@@ -34,6 +34,7 @@ public class FuzzyModTabs {
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_BOOTS.get());
 				tabData.accept(FuzzyModItems.LYCHEE.get());
 				tabData.accept(FuzzyModItems.MOSSY_BEEF.get());
+				tabData.accept(FuzzyModItems.BLUE_APPLE.get());
 			})
 
 					.build());
