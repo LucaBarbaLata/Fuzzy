@@ -21,6 +21,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 import net.mcreator.fuzzy.item.StrawberrysItem;
 import net.mcreator.fuzzy.item.StarryArmorItem;
 import net.mcreator.fuzzy.item.MossyBeefItem;
+import net.mcreator.fuzzy.item.MintItem;
 import net.mcreator.fuzzy.item.LycheeItem;
 import net.mcreator.fuzzy.item.CutiItem;
 import net.mcreator.fuzzy.item.CuteCreaturesItem;
@@ -45,6 +46,7 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> MOSSHEEP_SPAWN_EGG = REGISTRY.register("mossheep_spawn_egg", () -> new ForgeSpawnEggItem(FuzzyModEntities.MOSSHEEP, -16751104, -16711936, new Item.Properties()));
 	public static final RegistryObject<Item> MOSSY_BEEF = REGISTRY.register("mossy_beef", () -> new MossyBeefItem());
 	public static final RegistryObject<Item> BLUE_APPLE = REGISTRY.register("blue_apple", () -> new BlueAppleItem());
+	public static final RegistryObject<Item> MINT = REGISTRY.register("mint", () -> new MintItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -33,6 +33,7 @@ public class FuzzyModTabs {
 				tabData.accept(FuzzyModItems.MOSSHEEP_SPAWN_EGG.get());
 				tabData.accept(FuzzyModItems.MOSSY_BEEF.get());
 				tabData.accept(FuzzyModItems.BLUE_APPLE.get());
+				tabData.accept(FuzzyModItems.MINT.get());
 			})
 
 					.build());
