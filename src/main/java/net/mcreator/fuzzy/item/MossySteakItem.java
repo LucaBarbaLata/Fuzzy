@@ -19,6 +19,6 @@ public class MossySteakItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 0;
+		return 2;
 	}
 }
