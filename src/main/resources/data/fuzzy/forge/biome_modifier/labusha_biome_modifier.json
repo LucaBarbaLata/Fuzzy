@@ -6,7 +6,7 @@
   "spawners": {
     "type": "fuzzy:labusha",
     "weight": 20,
-    "minCount": 4,
-    "maxCount": 4
+    "minCount": 50,
+    "maxCount": 100
   }
 }
