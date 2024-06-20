@@ -100,7 +100,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "Blocks.CHERRY_SAPLING"
     },
     "livingSound": {
       "value": ""
