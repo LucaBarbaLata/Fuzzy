@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_log"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "fuzzy:ciroza",
+    "count": 1
+  }
+}

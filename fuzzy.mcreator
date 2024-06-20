@@ -74,6 +74,34 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ciroza",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ciroza",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/ciroza_0.json",
+          "src/main/java/net/mcreator/fuzzy/item/CirozaItem.java",
+          "src/main/resources/assets/fuzzy/models/item/ciroza.json"
+        ]
+      }
+    },
+    {
+      "name": "Cirozarecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirozarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/cirozarecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -91,6 +119,7 @@
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
+      "item.fuzzy.ciroza": "Ciroza",
       "effect.fuzzy.cuteness": "Cuteness"
     }
   },

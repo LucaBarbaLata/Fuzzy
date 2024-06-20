@@ -1,0 +1,33 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "ciroza",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Ciroza",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Fuzzy"
+    },
+    "harvestLevel": 1,
+    "efficiency": 999.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 40.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
