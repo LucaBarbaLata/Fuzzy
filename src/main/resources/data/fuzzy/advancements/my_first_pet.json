@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "minecraft:cherry_sapling"
+      "item": "fuzzy:strawberrys"
     },
     "title": {
       "translate": "advancements.my_first_pet.title"
@@ -22,7 +22,7 @@
         "location": [
           {
             "condition": "minecraft:block_state_property",
-            "block": "minecraft:mangrove_propagule"
+            "block": "fuzzy:cuti"
           }
         ]
       }
