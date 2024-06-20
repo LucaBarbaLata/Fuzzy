@@ -1,5 +1,9 @@
 {
+  "item.fuzzy.cuti_bucket": "Cuti Bucket",
   "advancements.my_first_pet.title": "My First Pet",
+  "block.fuzzy.cuti": "Cuti",
   "item_group.fuzzy.fuzzy": "Fuzzy",
-  "advancements.my_first_pet.descr": "You spawned a pet."
+  "fluid.fuzzy.cuti": "Cuti",
+  "advancements.my_first_pet.descr": "You spawned a pet.",
+  "effect.fuzzy.cuteness": "Cuteness"
 }

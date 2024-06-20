@@ -3,6 +3,7 @@
     {
       "name": "Fuzzy",
       "type": "tab",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fuzzy",
@@ -13,6 +14,7 @@
     {
       "name": "MyFirstPet",
       "type": "achievement",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "my_first_pet",
@@ -21,16 +23,75 @@
           "src/main/resources/data/fuzzy/advancements/my_first_pet.json"
         ]
       }
+    },
+    {
+      "name": "Cuteness",
+      "type": "potioneffect",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuteness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/potion/CutenessMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Cuti",
+      "type": "fluid",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/block/cuti.json",
+          "src/main/java/net/mcreator/fuzzy/fluid/CutiFluid.java",
+          "src/main/java/net/mcreator/fuzzy/block/CutiBlock.java",
+          "src/main/java/net/mcreator/fuzzy/fluid/types/CutiFluidType.java",
+          "src/main/resources/assets/fuzzy/blockstates/cuti.json",
+          "src/main/java/net/mcreator/fuzzy/item/CutiItem.java",
+          "src/main/resources/assets/fuzzy/models/item/cuti_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "CutiMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuti_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/procedures/CutiMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Cuti"
+    ]
+  },
   "language_map": {
     "en_us": {
+      "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "advancements.my_first_pet.title": "My First Pet",
+      "block.fuzzy.cuti": "Cuti",
       "item_group.fuzzy.fuzzy": "Fuzzy",
-      "advancements.my_first_pet.descr": "You spawned a pet."
+      "fluid.fuzzy.cuti": "Cuti",
+      "advancements.my_first_pet.descr": "You spawned a pet.",
+      "effect.fuzzy.cuteness": "Cuteness"
     }
   },
   "foldersRoot": {
