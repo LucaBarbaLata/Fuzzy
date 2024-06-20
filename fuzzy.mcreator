@@ -316,6 +316,20 @@
           "src/main/java/net/mcreator/fuzzy/item/MintItem.java"
         ]
       }
+    },
+    {
+      "name": "BlockersCandyBar",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockers_candy_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/blockers_candy_bar.json",
+          "src/main/java/net/mcreator/fuzzy/item/BlockersCandyBarItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -356,6 +370,7 @@
       "item.fuzzy.mossy_beef": "Mossy Beef",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
+      "item.fuzzy.blockers_candy_bar": "Blockers Candy Bar",
       "subtitles.cutecreatures": "Cute Creatures",
       "advancements.my_first_pet.title": "What is this? Blood?",
       "item.fuzzy.mint": "Mint",
