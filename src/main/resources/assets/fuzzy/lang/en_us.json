@@ -1,10 +1,14 @@
 {
   "item.fuzzy.cuti_bucket": "Cuti Bucket",
+  "fluid.fuzzy.cuti": "Cuti",
+  "advancements.my_first_pet.descr": "You spawned a pet.",
+  "item.fuzzy.strawberrys": "Strawberrys",
   "subtitles.cutecreatures": "Cute Creatures",
   "advancements.my_first_pet.title": "My First Pet",
   "block.fuzzy.cuti": "Cuti",
   "item_group.fuzzy.fuzzy": "Fuzzy",
-  "fluid.fuzzy.cuti": "Cuti",
-  "advancements.my_first_pet.descr": "You spawned a pet.",
-  "effect.fuzzy.cuteness": "Cuteness"
+  "item.fuzzy.cute_creatures.desc": "Cute Creatures",
+  "item.fuzzy.ciroza": "Ciroza",
+  "effect.fuzzy.cuteness": "Cuteness",
+  "item.fuzzy.cute_creatures": "Cute Creatures"
 }
