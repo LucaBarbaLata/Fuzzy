@@ -20,9 +20,11 @@ import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.mcreator.fuzzy.item.StrawberrysItem;
 import net.mcreator.fuzzy.item.StarryArmorItem;
+import net.mcreator.fuzzy.item.Oreo6xBiscuitsItem;
 import net.mcreator.fuzzy.item.MossyBeefItem;
 import net.mcreator.fuzzy.item.MintItem;
 import net.mcreator.fuzzy.item.LycheeItem;
+import net.mcreator.fuzzy.item.LagsChipsItem;
 import net.mcreator.fuzzy.item.CutiItem;
 import net.mcreator.fuzzy.item.CuteCreaturesItem;
 import net.mcreator.fuzzy.item.CirozaItem;
@@ -49,6 +51,8 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> BLUE_APPLE = REGISTRY.register("blue_apple", () -> new BlueAppleItem());
 	public static final RegistryObject<Item> MINT = REGISTRY.register("mint", () -> new MintItem());
 	public static final RegistryObject<Item> BLOCKERS_CANDY_BAR = REGISTRY.register("blockers_candy_bar", () -> new BlockersCandyBarItem());
+	public static final RegistryObject<Item> OREO_6X_BISCUITS = REGISTRY.register("oreo_6x_biscuits", () -> new Oreo6xBiscuitsItem());
+	public static final RegistryObject<Item> LAGS_CHIPS = REGISTRY.register("lags_chips", () -> new LagsChipsItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

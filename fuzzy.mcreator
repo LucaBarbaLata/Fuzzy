@@ -330,6 +330,34 @@
           "src/main/java/net/mcreator/fuzzy/item/BlockersCandyBarItem.java"
         ]
       }
+    },
+    {
+      "name": "Oreo6xBiscuits",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreo_6x_biscuits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/Oreo6xBiscuitsItem.java",
+          "src/main/resources/assets/fuzzy/models/item/oreo_6x_biscuits.json"
+        ]
+      }
+    },
+    {
+      "name": "LagsChips",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lags_chips",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/lags_chips.json",
+          "src/main/java/net/mcreator/fuzzy/item/LagsChipsItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -361,10 +389,12 @@
       "item.fuzzy.labusha_spawn_egg": "Labusha Spawn Egg",
       "item.fuzzy.starry_armor_boots": "Starry Boots",
       "block.fuzzy.cuti": "Cuti",
+      "item.fuzzy.oreo_6x_biscuits": "Oreo 6x Biscuits",
       "item.fuzzy.lychee": "Lychee",
       "item.fuzzy.bianal_spawn_egg": "Bianal Spawn Egg",
       "item.fuzzy.ciroza": "Ciroza",
       "entity.fuzzy.mossheep": "Mossy Cow",
+      "item.fuzzy.lags_chips": "Lags Chips",
       "item.fuzzy.cute_creatures": "Cute Creatures",
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "item.fuzzy.mossy_beef": "Mossy Beef",

@@ -35,6 +35,8 @@ public class FuzzyModTabs {
 				tabData.accept(FuzzyModItems.BLUE_APPLE.get());
 				tabData.accept(FuzzyModItems.MINT.get());
 				tabData.accept(FuzzyModItems.BLOCKERS_CANDY_BAR.get());
+				tabData.accept(FuzzyModItems.OREO_6X_BISCUITS.get());
+				tabData.accept(FuzzyModItems.LAGS_CHIPS.get());
 			})
 
 					.build());
