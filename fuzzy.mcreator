@@ -261,6 +261,20 @@
           "src/main/resources/data/fuzzy/forge/biome_modifier/mossheep_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "MossyBeef",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/mossy_beef.json",
+          "src/main/java/net/mcreator/fuzzy/item/MossyBeefItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -284,29 +298,30 @@
   },
   "language_map": {
     "en_us": {
-      "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "item.fuzzy.mossheep_spawn_egg": "Mossy Cow Spawn Egg",
       "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
       "entity.fuzzy.labusha": "Labusha",
-      "fluid.fuzzy.cuti": "Cuti",
-      "advancements.my_first_pet.descr": "You spawned a pet.",
       "entity.fuzzy.bianal": "Bianal",
       "item.fuzzy.strawberrys": "Strawberrys",
       "item.fuzzy.labusha_spawn_egg": "Labusha Spawn Egg",
-      "subtitles.cutecreatures": "Cute Creatures",
       "item.fuzzy.starry_armor_boots": "Starry Boots",
-      "advancements.my_first_pet.title": "What is this? Blood?",
       "block.fuzzy.cuti": "Cuti",
-      "item.fuzzy.starry_armor_leggings": "Starry Leggings",
-      "item_group.fuzzy.fuzzy": "Fuzzy",
-      "item.fuzzy.cute_creatures.desc": "Cute Creatures",
       "item.fuzzy.lychee": "Lychee",
       "item.fuzzy.bianal_spawn_egg": "Bianal Spawn Egg",
       "item.fuzzy.ciroza": "Ciroza",
       "entity.fuzzy.mossheep": "Mossy Cow",
+      "item.fuzzy.cute_creatures": "Cute Creatures",
+      "item.fuzzy.cuti_bucket": "Cuti Bucket",
+      "item.fuzzy.mossy_beef": "Mossy Beef",
+      "fluid.fuzzy.cuti": "Cuti",
+      "advancements.my_first_pet.descr": "You spawned a pet.",
+      "subtitles.cutecreatures": "Cute Creatures",
+      "advancements.my_first_pet.title": "What is this? Blood?",
+      "item.fuzzy.starry_armor_leggings": "Starry Leggings",
+      "item_group.fuzzy.fuzzy": "Fuzzy",
+      "item.fuzzy.cute_creatures.desc": "Cute Creatures",
       "effect.fuzzy.cuteness": "Cuteness",
-      "item.fuzzy.starry_armor_helmet": "Starry Helmet",
-      "item.fuzzy.cute_creatures": "Cute Creatures"
+      "item.fuzzy.starry_armor_helmet": "Starry Helmet"
     }
   },
   "foldersRoot": {
