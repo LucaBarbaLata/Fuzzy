@@ -245,6 +245,19 @@
           "src/main/java/net/mcreator/fuzzy/client/renderer/LabushaRenderer.java"
         ]
       }
+    },
+    {
+      "name": "Abc",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/abc.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
