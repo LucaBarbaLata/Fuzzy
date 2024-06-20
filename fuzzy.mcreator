@@ -74,24 +74,53 @@
           }
         ]
       }
+    },
+    {
+      "name": "CuteCreatures",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cute_creatures",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/CuteCreaturesItem.java",
+          "src/main/resources/assets/fuzzy/models/item/cute_creatures.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "cutecreatures",
+      "files": [
+        "cute-creatures-150622"
+      ],
+      "category": "record",
+      "subtitle": "Cute Creatures"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Cuti"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:CuteCreatures"
     ]
   },
   "language_map": {
     "en_us": {
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
+      "subtitles.cutecreatures": "Cute Creatures",
       "advancements.my_first_pet.title": "My First Pet",
       "block.fuzzy.cuti": "Cuti",
       "item_group.fuzzy.fuzzy": "Fuzzy",
+      "item.fuzzy.cute_creatures.desc": "Cute Creatures",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
-      "effect.fuzzy.cuteness": "Cuteness"
+      "effect.fuzzy.cuteness": "Cuteness",
+      "item.fuzzy.cute_creatures": "Cute Creatures"
     }
   },
   "foldersRoot": {

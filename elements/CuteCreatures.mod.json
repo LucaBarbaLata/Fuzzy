@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Cute Creatures",
+    "rarity": "RARE",
+    "texture": "dvd-152917_1280",
+    "description": "Cute Creatures",
+    "creativeTab": {
+      "value": "CUSTOM:Fuzzy"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:cutecreatures"
+    },
+    "lengthInTicks": 2800,
+    "analogOutput": 0
+  }
+}

@@ -20,6 +20,7 @@ public class FuzzyModTabs {
 	public static final RegistryObject<CreativeModeTab> FUZZY = REGISTRY.register("fuzzy",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fuzzy.fuzzy")).icon(() -> new ItemStack(Blocks.SLIME_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(FuzzyModItems.CUTI_BUCKET.get());
+				tabData.accept(FuzzyModItems.CUTE_CREATURES.get());
 			})
 
 					.build());

@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.fuzzy.init.FuzzyModTabs;
+import net.mcreator.fuzzy.init.FuzzyModSounds;
 import net.mcreator.fuzzy.init.FuzzyModMobEffects;
 import net.mcreator.fuzzy.init.FuzzyModItems;
 import net.mcreator.fuzzy.init.FuzzyModFluids;
@@ -43,7 +44,7 @@ public class FuzzyMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		FuzzyModSounds.REGISTRY.register(bus);
 		FuzzyModBlocks.REGISTRY.register(bus);
 
 		FuzzyModItems.REGISTRY.register(bus);
