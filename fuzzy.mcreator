@@ -1,10 +1,23 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Fuzzy",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuzzy",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.fuzzy.fuzzy": "Fuzzy"
+    }
   },
   "foldersRoot": {
     "name": "~",
