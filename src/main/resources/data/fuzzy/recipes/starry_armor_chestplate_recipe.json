@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fuzzy:strawberrys"
+    }
+  },
+  "result": {
+    "item": "fuzzy:starry_armor_chestplate",
+    "count": 1
+  }
+}

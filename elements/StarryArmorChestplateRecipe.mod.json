@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      },
+      {
+        "value": "CUSTOM:Strawberrys"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StarryArmor.body"
+    },
+    "name": "starry_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

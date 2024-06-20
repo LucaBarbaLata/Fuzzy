@@ -23,6 +23,10 @@ public class FuzzyModTabs {
 				tabData.accept(FuzzyModItems.CIROZA.get());
 				tabData.accept(FuzzyModItems.CUTE_CREATURES.get());
 				tabData.accept(FuzzyModItems.STRAWBERRYS.get());
+				tabData.accept(FuzzyModItems.STARRY_ARMOR_HELMET.get());
+				tabData.accept(FuzzyModItems.STARRY_ARMOR_CHESTPLATE.get());
+				tabData.accept(FuzzyModItems.STARRY_ARMOR_LEGGINGS.get());
+				tabData.accept(FuzzyModItems.STARRY_ARMOR_BOOTS.get());
 			})
 
 					.build());
