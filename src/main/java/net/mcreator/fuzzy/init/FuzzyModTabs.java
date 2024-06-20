@@ -32,7 +32,6 @@ public class FuzzyModTabs {
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_CHESTPLATE.get());
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_LEGGINGS.get());
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_BOOTS.get());
-				tabData.accept(FuzzyModItems.LYCHEE.get());
 			})
 
 					.build());
@@ -41,6 +40,8 @@ public class FuzzyModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FuzzyModItems.BIANAL_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(FuzzyModItems.LYCHEE.get());
 		}
 	}
 }
