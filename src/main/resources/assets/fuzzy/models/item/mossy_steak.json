@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fuzzy:item/steak_je4_be3.webp"
+  }
+}

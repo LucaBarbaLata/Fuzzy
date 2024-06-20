@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 190,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:MossyBeef"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:MossySteak"
+    },
+    "name": "mossy_steak_recipe",
+    "namespace": "mod"
+  }
+}

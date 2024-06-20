@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fuzzy:choco_bar"
+    },
+    "b": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "fuzzy:blockers_candy_bar",
+    "count": 1
+  }
+}

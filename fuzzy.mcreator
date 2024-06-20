@@ -465,6 +465,86 @@
           "src/main/resources/data/fuzzy/recipes/mint_recipe.json"
         ]
       }
+    },
+    {
+      "name": "BlackBreadRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_bread_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/black_bread_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocoBar",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choco_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/choco_bar.json",
+          "src/main/java/net/mcreator/fuzzy/item/ChocoBarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChcoRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chco_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/chco_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockerBarRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocker_bar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/blocker_bar_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MossySteak",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_steak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/MossySteakItem.java",
+          "src/main/resources/assets/fuzzy/models/item/mossy_steak.json"
+        ]
+      }
+    },
+    {
+      "name": "MossySteakRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_steak_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/mossy_steak_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -499,6 +579,7 @@
       "item.fuzzy.starry_armor_boots": "Starry Boots",
       "block.fuzzy.cuti": "Cuti",
       "item.fuzzy.oreo_6x_biscuits": "Oreo 6x Biscuits",
+      "item.fuzzy.mossy_steak": "Mossy Steak",
       "item.fuzzy.lychee": "Lychee",
       "item.fuzzy.bianal_spawn_egg": "Bianal Spawn Egg",
       "item.fuzzy.ciroza": "Ciroza",
@@ -514,6 +595,7 @@
       "subtitles.cutecreatures": "Cute Creatures",
       "advancements.my_first_pet.title": "What is this? Blood?",
       "item.fuzzy.mint": "Mint",
+      "item.fuzzy.choco_bar": "Choco Bar",
       "item.fuzzy.starry_armor_leggings": "Starry Leggings",
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
