@@ -9,6 +9,18 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "MyFirstPet",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "my_first_pet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/advancements/my_first_pet.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -16,7 +28,9 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item_group.fuzzy.fuzzy": "Fuzzy"
+      "advancements.my_first_pet.title": "My First Pet",
+      "item_group.fuzzy.fuzzy": "Fuzzy",
+      "advancements.my_first_pet.descr": "You spawned a pet."
     }
   },
   "foldersRoot": {

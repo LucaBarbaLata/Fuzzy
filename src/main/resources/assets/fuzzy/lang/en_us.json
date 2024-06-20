@@ -1,3 +1,5 @@
 {
-  "item_group.fuzzy.fuzzy": "Fuzzy"
+  "advancements.my_first_pet.title": "My First Pet",
+  "item_group.fuzzy.fuzzy": "Fuzzy",
+  "advancements.my_first_pet.descr": "You spawned a pet."
 }
