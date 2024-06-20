@@ -41,6 +41,7 @@ public class FuzzyModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FuzzyModItems.BIANAL_SPAWN_EGG.get());
+			tabData.accept(FuzzyModItems.LABUSHA_SPAWN_EGG.get());
 		}
 	}
 }

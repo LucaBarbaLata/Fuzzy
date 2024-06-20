@@ -229,6 +229,22 @@
           "src/main/resources/data/fuzzy/forge/biome_modifier/bianal_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Labusha",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labusha",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/entity/LabushaEntity.java",
+          "src/main/resources/assets/fuzzy/models/item/labusha_spawn_egg.json",
+          "src/main/resources/data/fuzzy/forge/biome_modifier/labusha_biome_modifier.json",
+          "src/main/java/net/mcreator/fuzzy/client/renderer/LabushaRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -254,10 +270,12 @@
     "en_us": {
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
+      "entity.fuzzy.labusha": "Labusha",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
       "entity.fuzzy.bianal": "Bianal",
       "item.fuzzy.strawberrys": "Strawberrys",
+      "item.fuzzy.labusha_spawn_egg": "Labusha Spawn Egg",
       "subtitles.cutecreatures": "Cute Creatures",
       "item.fuzzy.starry_armor_boots": "Starry Boots",
       "advancements.my_first_pet.title": "My First Pet",
