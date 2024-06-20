@@ -223,10 +223,10 @@
       "registry_name": "bianal",
       "metadata": {
         "files": [
-          "src/main/resources/data/fuzzy/forge/biome_modifier/bianal_biome_modifier.json",
-          "src/main/resources/assets/fuzzy/models/item/bianal_spawn_egg.json",
           "src/main/java/net/mcreator/fuzzy/entity/BianalEntity.java",
-          "src/main/java/net/mcreator/fuzzy/client/renderer/BianalRenderer.java"
+          "src/main/resources/assets/fuzzy/models/item/bianal_spawn_egg.json",
+          "src/main/java/net/mcreator/fuzzy/client/renderer/BianalRenderer.java",
+          "src/main/resources/data/fuzzy/forge/biome_modifier/bianal_biome_modifier.json"
         ]
       }
     }
