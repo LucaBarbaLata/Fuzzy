@@ -20,6 +20,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.mcreator.fuzzy.item.StrawberrysItem;
 import net.mcreator.fuzzy.item.StarryArmorItem;
+import net.mcreator.fuzzy.item.OreoItem;
 import net.mcreator.fuzzy.item.Oreo6xBiscuitsItem;
 import net.mcreator.fuzzy.item.MossyBeefItem;
 import net.mcreator.fuzzy.item.MintItem;
@@ -28,8 +29,10 @@ import net.mcreator.fuzzy.item.LagsChipsItem;
 import net.mcreator.fuzzy.item.CutiItem;
 import net.mcreator.fuzzy.item.CuteCreaturesItem;
 import net.mcreator.fuzzy.item.CirozaItem;
+import net.mcreator.fuzzy.item.ChipItem;
 import net.mcreator.fuzzy.item.BlueAppleItem;
 import net.mcreator.fuzzy.item.BlockersCandyBarItem;
+import net.mcreator.fuzzy.item.BlackBreadItem;
 import net.mcreator.fuzzy.FuzzyMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -53,6 +56,9 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> BLOCKERS_CANDY_BAR = REGISTRY.register("blockers_candy_bar", () -> new BlockersCandyBarItem());
 	public static final RegistryObject<Item> OREO_6X_BISCUITS = REGISTRY.register("oreo_6x_biscuits", () -> new Oreo6xBiscuitsItem());
 	public static final RegistryObject<Item> LAGS_CHIPS = REGISTRY.register("lags_chips", () -> new LagsChipsItem());
+	public static final RegistryObject<Item> CHIP = REGISTRY.register("chip", () -> new ChipItem());
+	public static final RegistryObject<Item> BLACK_BREAD = REGISTRY.register("black_bread", () -> new BlackBreadItem());
+	public static final RegistryObject<Item> OREO = REGISTRY.register("oreo", () -> new OreoItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

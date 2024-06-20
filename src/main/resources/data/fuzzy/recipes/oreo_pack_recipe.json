@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blue_dye"
+    },
+    "b": {
+      "item": "fuzzy:oreo"
+    }
+  },
+  "result": {
+    "item": "fuzzy:oreo_6x_biscuits",
+    "count": 1
+  }
+}

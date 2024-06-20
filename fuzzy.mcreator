@@ -358,6 +358,113 @@
           "src/main/java/net/mcreator/fuzzy/item/LagsChipsItem.java"
         ]
       }
+    },
+    {
+      "name": "Chip",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/chip.json",
+          "src/main/java/net/mcreator/fuzzy/item/ChipItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeChip",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chip",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/recipe_chip.json"
+        ]
+      }
+    },
+    {
+      "name": "LagsChipRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lags_chip_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/lags_chip_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackBread",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_bread",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/black_bread.json",
+          "src/main/java/net/mcreator/fuzzy/item/BlackBreadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Oreo",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/oreo.json",
+          "src/main/java/net/mcreator/fuzzy/item/OreoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OreoRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreo_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/oreo_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OreoPackRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oreo_pack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/oreo_pack_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MintRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/mint_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -384,8 +491,10 @@
       "item.fuzzy.mossheep_spawn_egg": "Mossy Cow Spawn Egg",
       "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
       "entity.fuzzy.labusha": "Labusha",
+      "item.fuzzy.chip": "Chip",
       "entity.fuzzy.bianal": "Bianal",
       "item.fuzzy.strawberrys": "Strawberrys",
+      "item.fuzzy.black_bread": "Black Bread",
       "item.fuzzy.labusha_spawn_egg": "Labusha Spawn Egg",
       "item.fuzzy.starry_armor_boots": "Starry Boots",
       "block.fuzzy.cuti": "Cuti",
@@ -396,6 +505,7 @@
       "entity.fuzzy.mossheep": "Mossy Cow",
       "item.fuzzy.lags_chips": "Lags Chips",
       "item.fuzzy.cute_creatures": "Cute Creatures",
+      "item.fuzzy.oreo": "Oreo",
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "item.fuzzy.mossy_beef": "Mossy Beef",
       "fluid.fuzzy.cuti": "Cuti",

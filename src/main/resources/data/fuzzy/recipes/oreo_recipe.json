@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "fuzzy:black_bread"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "fuzzy:oreo",
+    "count": 3
+  }
+}
