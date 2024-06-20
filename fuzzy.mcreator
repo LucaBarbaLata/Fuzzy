@@ -245,6 +245,22 @@
           "src/main/java/net/mcreator/fuzzy/client/renderer/LabushaRenderer.java"
         ]
       }
+    },
+    {
+      "name": "Mossheep",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossheep",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/mossheep_spawn_egg.json",
+          "src/main/java/net/mcreator/fuzzy/client/renderer/MossheepRenderer.java",
+          "src/main/java/net/mcreator/fuzzy/entity/MossheepEntity.java",
+          "src/main/resources/data/fuzzy/forge/biome_modifier/mossheep_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -269,6 +285,7 @@
   "language_map": {
     "en_us": {
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
+      "item.fuzzy.mossheep_spawn_egg": "Mossy Cow Spawn Egg",
       "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
       "entity.fuzzy.labusha": "Labusha",
       "fluid.fuzzy.cuti": "Cuti",
@@ -286,6 +303,7 @@
       "item.fuzzy.lychee": "Lychee",
       "item.fuzzy.bianal_spawn_egg": "Bianal Spawn Egg",
       "item.fuzzy.ciroza": "Ciroza",
+      "entity.fuzzy.mossheep": "Mossy Cow",
       "effect.fuzzy.cuteness": "Cuteness",
       "item.fuzzy.starry_armor_helmet": "Starry Helmet",
       "item.fuzzy.cute_creatures": "Cute Creatures"

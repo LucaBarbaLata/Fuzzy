@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.fuzzy.client.renderer.MossheepRenderer;
 import net.mcreator.fuzzy.client.renderer.LabushaRenderer;
 import net.mcreator.fuzzy.client.renderer.BianalRenderer;
 
@@ -18,5 +19,6 @@ public class FuzzyModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(FuzzyModEntities.BIANAL.get(), BianalRenderer::new);
 		event.registerEntityRenderer(FuzzyModEntities.LABUSHA.get(), LabushaRenderer::new);
+		event.registerEntityRenderer(FuzzyModEntities.MOSSHEEP.get(), MossheepRenderer::new);
 	}
 }

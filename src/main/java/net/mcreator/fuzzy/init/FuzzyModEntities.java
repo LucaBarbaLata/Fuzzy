@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.fuzzy.entity.MossheepEntity;
 import net.mcreator.fuzzy.entity.LabushaEntity;
 import net.mcreator.fuzzy.entity.BianalEntity;
 import net.mcreator.fuzzy.FuzzyMod;
@@ -29,6 +30,10 @@ public class FuzzyModEntities {
 			EntityType.Builder.<LabushaEntity>of(LabushaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LabushaEntity::new)
 
 					.sized(0.6f, 0.7f));
+	public static final RegistryObject<EntityType<MossheepEntity>> MOSSHEEP = register("mossheep",
+			EntityType.Builder.<MossheepEntity>of(MossheepEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MossheepEntity::new)
+
+					.sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -39,6 +44,7 @@ public class FuzzyModEntities {
 		event.enqueueWork(() -> {
 			BianalEntity.init();
 			LabushaEntity.init();
+			MossheepEntity.init();
 		});
 	}
 
@@ -46,5 +52,6 @@ public class FuzzyModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(BIANAL.get(), BianalEntity.createAttributes().build());
 		event.put(LABUSHA.get(), LabushaEntity.createAttributes().build());
+		event.put(MOSSHEEP.get(), MossheepEntity.createAttributes().build());
 	}
 }
