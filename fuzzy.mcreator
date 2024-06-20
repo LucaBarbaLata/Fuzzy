@@ -213,6 +213,22 @@
           "src/main/resources/assets/fuzzy/models/item/lychee.json"
         ]
       }
+    },
+    {
+      "name": "Bianal",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bianal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/entity/BianalEntity.java",
+          "src/main/resources/assets/fuzzy/models/item/bianal_spawn_egg.json",
+          "src/main/java/net/mcreator/fuzzy/client/renderer/BianalRenderer.java",
+          "src/main/resources/data/fuzzy/forge/biome_modifier/bianal_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -240,6 +256,7 @@
       "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
+      "entity.fuzzy.bianal": "Bianal",
       "item.fuzzy.strawberrys": "Strawberrys",
       "subtitles.cutecreatures": "Cute Creatures",
       "item.fuzzy.starry_armor_boots": "Starry Boots",
@@ -249,6 +266,7 @@
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
       "item.fuzzy.lychee": "Lychee",
+      "item.fuzzy.bianal_spawn_egg": "Bianal Spawn Egg",
       "item.fuzzy.ciroza": "Ciroza",
       "effect.fuzzy.cuteness": "Cuteness",
       "item.fuzzy.starry_armor_helmet": "Starry Helmet",

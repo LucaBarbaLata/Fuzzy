@@ -23,6 +23,7 @@ import net.mcreator.fuzzy.init.FuzzyModMobEffects;
 import net.mcreator.fuzzy.init.FuzzyModItems;
 import net.mcreator.fuzzy.init.FuzzyModFluids;
 import net.mcreator.fuzzy.init.FuzzyModFluidTypes;
+import net.mcreator.fuzzy.init.FuzzyModEntities;
 import net.mcreator.fuzzy.init.FuzzyModBlocks;
 
 import java.util.function.Supplier;
@@ -48,6 +49,7 @@ public class FuzzyMod {
 		FuzzyModBlocks.REGISTRY.register(bus);
 
 		FuzzyModItems.REGISTRY.register(bus);
+		FuzzyModEntities.REGISTRY.register(bus);
 
 		FuzzyModTabs.REGISTRY.register(bus);
 

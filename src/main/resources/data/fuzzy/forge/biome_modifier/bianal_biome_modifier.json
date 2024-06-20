@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "fuzzy:bianal",
+    "weight": 20,
+    "minCount": 24,
+    "maxCount": 48
+  }
+}
