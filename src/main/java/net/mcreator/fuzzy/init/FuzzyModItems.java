@@ -19,6 +19,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.mcreator.fuzzy.item.StrawberrysItem;
 import net.mcreator.fuzzy.item.StarryArmorItem;
+import net.mcreator.fuzzy.item.LycheeItem;
 import net.mcreator.fuzzy.item.CutiItem;
 import net.mcreator.fuzzy.item.CuteCreaturesItem;
 import net.mcreator.fuzzy.item.CirozaItem;
@@ -35,6 +36,7 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> STARRY_ARMOR_CHESTPLATE = REGISTRY.register("starry_armor_chestplate", () -> new StarryArmorItem.Chestplate());
 	public static final RegistryObject<Item> STARRY_ARMOR_LEGGINGS = REGISTRY.register("starry_armor_leggings", () -> new StarryArmorItem.Leggings());
 	public static final RegistryObject<Item> STARRY_ARMOR_BOOTS = REGISTRY.register("starry_armor_boots", () -> new StarryArmorItem.Boots());
+	public static final RegistryObject<Item> LYCHEE = REGISTRY.register("lychee", () -> new LycheeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

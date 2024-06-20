@@ -199,6 +199,20 @@
           "src/main/resources/data/fuzzy/recipes/starry_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Lychee",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lychee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/LycheeItem.java",
+          "src/main/resources/assets/fuzzy/models/item/lychee.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -234,6 +248,7 @@
       "item.fuzzy.starry_armor_leggings": "Starry Leggings",
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
+      "item.fuzzy.lychee": "Lychee",
       "item.fuzzy.ciroza": "Ciroza",
       "effect.fuzzy.cuteness": "Cuteness",
       "item.fuzzy.starry_armor_helmet": "Starry Helmet",
