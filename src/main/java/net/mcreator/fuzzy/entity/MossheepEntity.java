@@ -41,6 +41,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.fuzzy.procedures.CutiMobplayerCollidesBlockProcedure;
+import net.mcreator.fuzzy.init.FuzzyModItems;
 import net.mcreator.fuzzy.init.FuzzyModEntities;
 
 public class MossheepEntity extends Animal {
@@ -78,6 +79,11 @@ public class MossheepEntity extends Animal {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(FuzzyModItems.MOSSY_BEEF.get()));
 	}
 
 	@Override
