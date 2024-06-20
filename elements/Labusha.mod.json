@@ -2,10 +2,10 @@
   "_fv": 60,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Bianal",
+    "mobName": "Labusha",
     "mobLabel": "",
-    "mobModelName": "Chicken",
-    "mobModelTexture": "bianal.png",
+    "mobModelName": "Ocelot",
+    "mobModelTexture": "labusha.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -22,17 +22,17 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "modelWidth": 0.4,
+    "modelWidth": 0.6,
     "modelHeight": 0.7,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -13108,
+      "value": -16777216,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -52276,
+      "value": -65383,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -86,21 +86,21 @@
     "ridable": true,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
-    "immuneToExplosion": false,
+    "immuneToExplosion": true,
     "immuneToTrident": false,
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Blocks.CHERRY_SAPLING"
+      "value": "Items.AXOLOTL_BUCKET"
     },
     "livingSound": {
       "value": ""
@@ -118,13 +118,9 @@
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
-    "breedable": true,
-    "tameable": true,
-    "breedTriggerItems": [
-      {
-        "value": "Blocks.RED_FLOWER#0"
-      }
-    ],
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
@@ -136,8 +132,8 @@
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 24,
-    "maxNumberOfMobsPerGroup": 48,
+    "minNumberOfMobsPerGroup": 50,
+    "maxNumberOfMobsPerGroup": 100,
     "restrictionBiomes": [],
     "spawnInDungeons": true
   }
