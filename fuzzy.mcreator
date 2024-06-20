@@ -76,6 +76,19 @@
       }
     },
     {
+      "name": "Cirozarecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirozarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/cirozarecipe.json"
+        ]
+      }
+    },
+    {
       "name": "Ciroza",
       "type": "tool",
       "sortid": 7,
@@ -91,35 +104,62 @@
       }
     },
     {
-      "name": "Cirozarecipe",
-      "type": "recipe",
+      "name": "CuteCreatures",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cute_creatures",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/CuteCreaturesItem.java",
+          "src/main/resources/assets/fuzzy/models/item/cute_creatures.json"
+        ]
+      }
+    },
+    {
+      "name": "Strawberrys",
+      "type": "item",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cirozarecipe",
+      "registry_name": "strawberrys",
       "metadata": {
         "files": [
-          "src/main/resources/data/fuzzy/recipes/cirozarecipe.json"
+          "src/main/resources/assets/fuzzy/models/item/strawberrys.json",
+          "src/main/java/net/mcreator/fuzzy/item/StrawberrysItem.java"
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "cutecreatures",
+      "files": [
+        "cute-creatures-150622"
+      ],
+      "category": "record",
+      "subtitle": "Cute Creatures"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Cuti"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:CuteCreatures"
     ]
   },
   "language_map": {
     "en_us": {
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
+      "subtitles.cutecreatures": "Cute Creatures",
       "advancements.my_first_pet.title": "My First Pet",
       "block.fuzzy.cuti": "Cuti",
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
-      "item.fuzzy.ciroza": "Ciroza",
       "effect.fuzzy.cuteness": "Cuteness"
     }
   },

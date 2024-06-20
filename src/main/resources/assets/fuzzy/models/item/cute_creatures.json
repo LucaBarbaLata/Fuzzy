@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fuzzy:item/dvd-152917_1280"
+  }
+}

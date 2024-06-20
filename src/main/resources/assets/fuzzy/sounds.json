@@ -1,0 +1,11 @@
+{
+  "cutecreatures": {
+    "subtitle": "subtitles.cutecreatures",
+    "sounds": [
+      {
+        "name": "fuzzy:cute-creatures-150622",
+        "stream": true
+      }
+    ]
+  }
+}
