@@ -88,6 +88,20 @@
           "src/main/resources/assets/fuzzy/models/item/cute_creatures.json"
         ]
       }
+    },
+    {
+      "name": "Strawberrys",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberrys",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/StrawberrysItem.java",
+          "src/main/resources/assets/fuzzy/models/item/strawberrys.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -119,6 +133,7 @@
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
       "fluid.fuzzy.cuti": "Cuti",
       "advancements.my_first_pet.descr": "You spawned a pet.",
+      "item.fuzzy.strawberrys": "Strawberrys",
       "effect.fuzzy.cuteness": "Cuteness",
       "item.fuzzy.cute_creatures": "Cute Creatures"
     }
