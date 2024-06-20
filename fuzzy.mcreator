@@ -289,6 +289,19 @@
           "src/main/java/net/mcreator/fuzzy/item/BlueAppleItem.java"
         ]
       }
+    },
+    {
+      "name": "CustomAppleItem",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_apple_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/custom_apple_item.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
