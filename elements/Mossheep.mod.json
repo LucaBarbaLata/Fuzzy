@@ -87,7 +87,7 @@
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 20,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 60,
     "disableCollisions": false,
     "ridable": true,
     "canControlForward": true,

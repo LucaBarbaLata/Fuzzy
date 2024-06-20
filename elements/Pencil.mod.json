@@ -1,0 +1,33 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "steak_je4_be3.webp_2",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Pencil",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Fuzzy"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.5,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 7.5,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
