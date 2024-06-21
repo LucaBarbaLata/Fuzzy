@@ -596,6 +596,7 @@
     {
       "name": "AppleArmor",
       "type": "armor",
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apple_armor",
@@ -612,6 +613,7 @@
     {
       "name": "AppleArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apple_armor_helmet_recipe",
@@ -624,6 +626,7 @@
     {
       "name": "AppleArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apple_armor_chestplate_recipe",
@@ -636,6 +639,7 @@
     {
       "name": "AppleArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apple_armor_leggings_recipe",
@@ -648,6 +652,7 @@
     {
       "name": "AppleArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apple_armor_boots_recipe",
@@ -660,6 +665,7 @@
     {
       "name": "BlueArmor",
       "type": "armor",
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_armor",
@@ -676,6 +682,7 @@
     {
       "name": "BlueArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_armor_helmet_recipe",
@@ -688,6 +695,7 @@
     {
       "name": "BlueArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_armor_chestplate_recipe",
@@ -700,6 +708,7 @@
     {
       "name": "BlueArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_armor_leggings_recipe",
@@ -712,6 +721,7 @@
     {
       "name": "BlueArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_armor_boots_recipe",

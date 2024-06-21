@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "apple_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Fuzzy"
     },
     "armorTextureFile": "apple",
     "helmetName": "Apple Helmet",
