@@ -36,7 +36,7 @@ public class FuzzyModEntities {
 
 					.sized(0.9f, 1.4f));
 	public static final RegistryObject<EntityType<AquaticSheepEntity>> AQUATIC_SHEEP = register("aquatic_sheep", EntityType.Builder.<AquaticSheepEntity>of(AquaticSheepEntity::new, MobCategory.WATER_CREATURE).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AquaticSheepEntity::new).fireImmune().sized(0.5f, 0.3f));
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AquaticSheepEntity::new).fireImmune().sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
