@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Oi Oi Oi",
+    "rarity": "RARE",
+    "texture": "3-1",
+    "description": "Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi ",
+    "creativeTab": {
+      "value": "CUSTOM:Fuzzy"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:oioioi"
+    },
+    "lengthInTicks": 1240,
+    "analogOutput": 0
+  }
+}

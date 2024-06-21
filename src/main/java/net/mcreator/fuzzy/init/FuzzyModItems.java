@@ -23,6 +23,7 @@ import net.mcreator.fuzzy.item.StarryArmorItem;
 import net.mcreator.fuzzy.item.PencilItem;
 import net.mcreator.fuzzy.item.OreoItem;
 import net.mcreator.fuzzy.item.Oreo6xBiscuitsItem;
+import net.mcreator.fuzzy.item.OiOiOiItem;
 import net.mcreator.fuzzy.item.MossySteakItem;
 import net.mcreator.fuzzy.item.MossyBeefItem;
 import net.mcreator.fuzzy.item.MintItem;
@@ -33,9 +34,11 @@ import net.mcreator.fuzzy.item.CuteCreaturesItem;
 import net.mcreator.fuzzy.item.CirozaItem;
 import net.mcreator.fuzzy.item.ChocoBarItem;
 import net.mcreator.fuzzy.item.ChipItem;
+import net.mcreator.fuzzy.item.BlueArmorItem;
 import net.mcreator.fuzzy.item.BlueAppleItem;
 import net.mcreator.fuzzy.item.BlockersCandyBarItem;
 import net.mcreator.fuzzy.item.BlackBreadItem;
+import net.mcreator.fuzzy.item.AppleArmorItem;
 import net.mcreator.fuzzy.FuzzyMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -66,6 +69,15 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> MOSSY_STEAK = REGISTRY.register("mossy_steak", () -> new MossySteakItem());
 	public static final RegistryObject<Item> PENCIL = REGISTRY.register("pencil", () -> new PencilItem());
 	public static final RegistryObject<Item> AQUATIC_SHEEP_SPAWN_EGG = REGISTRY.register("aquatic_sheep_spawn_egg", () -> new ForgeSpawnEggItem(FuzzyModEntities.AQUATIC_SHEEP, -16737793, -16724788, new Item.Properties()));
+	public static final RegistryObject<Item> OI_OI_OI = REGISTRY.register("oi_oi_oi", () -> new OiOiOiItem());
+	public static final RegistryObject<Item> APPLE_ARMOR_HELMET = REGISTRY.register("apple_armor_helmet", () -> new AppleArmorItem.Helmet());
+	public static final RegistryObject<Item> APPLE_ARMOR_CHESTPLATE = REGISTRY.register("apple_armor_chestplate", () -> new AppleArmorItem.Chestplate());
+	public static final RegistryObject<Item> APPLE_ARMOR_LEGGINGS = REGISTRY.register("apple_armor_leggings", () -> new AppleArmorItem.Leggings());
+	public static final RegistryObject<Item> APPLE_ARMOR_BOOTS = REGISTRY.register("apple_armor_boots", () -> new AppleArmorItem.Boots());
+	public static final RegistryObject<Item> BLUE_ARMOR_HELMET = REGISTRY.register("blue_armor_helmet", () -> new BlueArmorItem.Helmet());
+	public static final RegistryObject<Item> BLUE_ARMOR_CHESTPLATE = REGISTRY.register("blue_armor_chestplate", () -> new BlueArmorItem.Chestplate());
+	public static final RegistryObject<Item> BLUE_ARMOR_LEGGINGS = REGISTRY.register("blue_armor_leggings", () -> new BlueArmorItem.Leggings());
+	public static final RegistryObject<Item> BLUE_ARMOR_BOOTS = REGISTRY.register("blue_armor_boots", () -> new BlueArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -24,14 +24,23 @@ public class FuzzyModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FuzzyMod.MODID);
 	public static final RegistryObject<CreativeModeTab> FUZZY = REGISTRY.register("fuzzy",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fuzzy.fuzzy")).icon(() -> new ItemStack(Blocks.SLIME_BLOCK)).displayItems((parameters, tabData) -> {
+				tabData.accept(FuzzyModItems.OI_OI_OI.get());
 				tabData.accept(FuzzyModItems.CUTI_BUCKET.get());
 				tabData.accept(FuzzyModItems.CIROZA.get());
 				tabData.accept(FuzzyModItems.CUTE_CREATURES.get());
 				tabData.accept(FuzzyModItems.STRAWBERRYS.get());
+				tabData.accept(FuzzyModItems.BLUE_ARMOR_HELMET.get());
+				tabData.accept(FuzzyModItems.BLUE_ARMOR_CHESTPLATE.get());
+				tabData.accept(FuzzyModItems.BLUE_ARMOR_LEGGINGS.get());
+				tabData.accept(FuzzyModItems.BLUE_ARMOR_BOOTS.get());
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_HELMET.get());
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_CHESTPLATE.get());
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_LEGGINGS.get());
 				tabData.accept(FuzzyModItems.STARRY_ARMOR_BOOTS.get());
+				tabData.accept(FuzzyModItems.APPLE_ARMOR_HELMET.get());
+				tabData.accept(FuzzyModItems.APPLE_ARMOR_CHESTPLATE.get());
+				tabData.accept(FuzzyModItems.APPLE_ARMOR_LEGGINGS.get());
+				tabData.accept(FuzzyModItems.APPLE_ARMOR_BOOTS.get());
 				tabData.accept(FuzzyModItems.LYCHEE.get());
 				tabData.accept(FuzzyModItems.BIANAL_SPAWN_EGG.get());
 				tabData.accept(FuzzyModItems.LABUSHA_SPAWN_EGG.get());

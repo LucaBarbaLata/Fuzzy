@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "fuzzy:deleted_mod_element_helmet",
+    "count": 1
+  }
+}

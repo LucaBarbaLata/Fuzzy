@@ -12,19 +12,6 @@
       }
     },
     {
-      "name": "MyFirstPet",
-      "type": "achievement",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "my_first_pet",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fuzzy/advancements/my_first_pet.json"
-        ]
-      }
-    },
-    {
       "name": "Cuteness",
       "type": "potioneffect",
       "sortid": 4,
@@ -588,6 +575,177 @@
           "src/main/java/net/mcreator/fuzzy/client/renderer/AquaticSheepRenderer.java"
         ]
       }
+    },
+    {
+      "name": "BlueApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/procedures/BlueApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/blue_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OiOiOi",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oi_oi_oi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/oi_oi_oi.json",
+          "src/main/java/net/mcreator/fuzzy/item/OiOiOiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/blue_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmor",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_leggings.json",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_helmet.json",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_chestplate.json",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_boots.json",
+          "src/main/java/net/mcreator/fuzzy/item/AppleArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/blue_armor_chestplate.json",
+          "src/main/resources/assets/fuzzy/models/item/blue_armor_leggings.json",
+          "src/main/resources/assets/fuzzy/models/item/blue_armor_boots.json",
+          "src/main/java/net/mcreator/fuzzy/item/BlueArmorItem.java",
+          "src/main/resources/assets/fuzzy/models/item/blue_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/blue_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/blue_armor_helmet_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -599,6 +757,14 @@
       ],
       "category": "record",
       "subtitle": "Cute Creatures"
+    },
+    {
+      "name": "oioioi",
+      "files": [
+        "oi-oi-oi-red-larva-_japan-and-eng-lyrics_"
+      ],
+      "category": "record",
+      "subtitle": "Oi Oi Oi"
     }
   ],
   "tag_elements": {
@@ -606,6 +772,7 @@
       "~CUSTOM:Cuti"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:OiOiOi",
       "~CUSTOM:CuteCreatures"
     ]
   },
@@ -634,17 +801,14 @@
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "item.fuzzy.mossy_beef": "Mossy Beef",
       "fluid.fuzzy.cuti": "Cuti",
-      "item.fuzzy.aquatic_sheep_spawn_egg": "Aquatic Sheep Spawn Egg",
-      "advancements.my_first_pet.descr": "You spawned a pet.",
       "item.fuzzy.blockers_candy_bar": "Blockers Candy Bar",
       "subtitles.cutecreatures": "Cute Creatures",
-      "advancements.my_first_pet.title": "What is this? Blood?",
       "item.fuzzy.mint": "Mint",
       "item.fuzzy.choco_bar": "Choco Bar",
-      "entity.fuzzy.aquatic_sheep": "Aquatic Sheep",
       "item.fuzzy.starry_armor_leggings": "Starry Leggings",
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
+      "subtitles.oioioi": "Oi Oi Oi",
       "effect.fuzzy.cuteness": "Cuteness",
       "item.fuzzy.blue_apple": "Blue Apple",
       "item.fuzzy.starry_armor_helmet": "Starry Helmet"

@@ -16,4 +16,5 @@ import net.mcreator.fuzzy.FuzzyMod;
 public class FuzzyModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, FuzzyMod.MODID);
 	public static final RegistryObject<SoundEvent> CUTECREATURES = REGISTRY.register("cutecreatures", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fuzzy", "cutecreatures")));
+	public static final RegistryObject<SoundEvent> OIOIOI = REGISTRY.register("oioioi", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fuzzy", "oioioi")));
 }
