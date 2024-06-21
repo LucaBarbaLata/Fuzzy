@@ -43,6 +43,7 @@ public class FuzzyModTabs {
 				tabData.accept(FuzzyModItems.CHOCO_BAR.get());
 				tabData.accept(FuzzyModItems.MOSSY_STEAK.get());
 				tabData.accept(FuzzyModItems.PENCIL.get());
+				tabData.accept(FuzzyModItems.OI_OI_OI.get());
 			})
 
 					.build());

@@ -23,6 +23,7 @@ import net.mcreator.fuzzy.item.StarryArmorItem;
 import net.mcreator.fuzzy.item.PencilItem;
 import net.mcreator.fuzzy.item.OreoItem;
 import net.mcreator.fuzzy.item.Oreo6xBiscuitsItem;
+import net.mcreator.fuzzy.item.OiOiOiItem;
 import net.mcreator.fuzzy.item.MossySteakItem;
 import net.mcreator.fuzzy.item.MossyBeefItem;
 import net.mcreator.fuzzy.item.MintItem;
@@ -65,6 +66,7 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> CHOCO_BAR = REGISTRY.register("choco_bar", () -> new ChocoBarItem());
 	public static final RegistryObject<Item> MOSSY_STEAK = REGISTRY.register("mossy_steak", () -> new MossySteakItem());
 	public static final RegistryObject<Item> PENCIL = REGISTRY.register("pencil", () -> new PencilItem());
+	public static final RegistryObject<Item> OI_OI_OI = REGISTRY.register("oi_oi_oi", () -> new OiOiOiItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
