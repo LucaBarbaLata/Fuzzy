@@ -730,6 +730,22 @@
           "src/main/resources/data/fuzzy/recipes/blue_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AquaticSheep",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquatic_sheep",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fuzzy/models/item/aquatic_sheep_spawn_egg.json",
+          "src/main/resources/data/fuzzy/forge/biome_modifier/aquatic_sheep_biome_modifier.json",
+          "src/main/java/net/mcreator/fuzzy/entity/AquaticSheepEntity.java",
+          "src/main/java/net/mcreator/fuzzy/client/renderer/AquaticSheepRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -791,6 +807,7 @@
       "item.fuzzy.blue_armor_boots": "Blue Boots",
       "item.fuzzy.mossy_beef": "Mossy Beef",
       "fluid.fuzzy.cuti": "Cuti",
+      "item.fuzzy.aquatic_sheep_spawn_egg": "Aquatic Sheep Spawn Egg",
       "item.fuzzy.blue_armor_chestplate": "Blue Chestplate",
       "item.fuzzy.blockers_candy_bar": "Blockers Candy Bar",
       "item.fuzzy.blue_armor_leggings": "Blue Leggings",
@@ -798,6 +815,7 @@
       "item.fuzzy.apple_armor_boots": "Apple Boots",
       "item.fuzzy.mint": "Mint",
       "item.fuzzy.choco_bar": "Choco Bar",
+      "entity.fuzzy.aquatic_sheep": "Aquatic Sheep",
       "item.fuzzy.starry_armor_leggings": "Starry Leggings",
       "item_group.fuzzy.fuzzy": "Fuzzy",
       "item.fuzzy.cute_creatures.desc": "Cute Creatures",
