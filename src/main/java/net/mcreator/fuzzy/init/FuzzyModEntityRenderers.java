@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.fuzzy.client.renderer.MossheepRenderer;
 import net.mcreator.fuzzy.client.renderer.LabushaRenderer;
 import net.mcreator.fuzzy.client.renderer.BianalRenderer;
+import net.mcreator.fuzzy.client.renderer.AquaticSheepRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FuzzyModEntityRenderers {
@@ -20,5 +21,6 @@ public class FuzzyModEntityRenderers {
 		event.registerEntityRenderer(FuzzyModEntities.BIANAL.get(), BianalRenderer::new);
 		event.registerEntityRenderer(FuzzyModEntities.LABUSHA.get(), LabushaRenderer::new);
 		event.registerEntityRenderer(FuzzyModEntities.MOSSHEEP.get(), MossheepRenderer::new);
+		event.registerEntityRenderer(FuzzyModEntities.AQUATIC_SHEEP.get(), AquaticSheepRenderer::new);
 	}
 }

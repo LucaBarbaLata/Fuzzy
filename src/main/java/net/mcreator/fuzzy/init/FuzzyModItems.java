@@ -65,6 +65,7 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> CHOCO_BAR = REGISTRY.register("choco_bar", () -> new ChocoBarItem());
 	public static final RegistryObject<Item> MOSSY_STEAK = REGISTRY.register("mossy_steak", () -> new MossySteakItem());
 	public static final RegistryObject<Item> PENCIL = REGISTRY.register("pencil", () -> new PencilItem());
+	public static final RegistryObject<Item> AQUATIC_SHEEP_SPAWN_EGG = REGISTRY.register("aquatic_sheep_spawn_egg", () -> new ForgeSpawnEggItem(FuzzyModEntities.AQUATIC_SHEEP, -16737793, -16724788, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
