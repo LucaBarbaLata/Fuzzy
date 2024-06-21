@@ -592,6 +592,70 @@
           "src/main/java/net/mcreator/fuzzy/item/OiOiOiItem.java"
         ]
       }
+    },
+    {
+      "name": "AppleArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fuzzy/item/AppleArmorItem.java",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_boots.json",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_leggings.json",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_helmet.json",
+          "src/main/resources/assets/fuzzy/models/item/apple_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fuzzy/recipes/apple_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -628,6 +692,7 @@
       "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
       "entity.fuzzy.labusha": "Labusha",
       "item.fuzzy.pencil": "Pencil",
+      "item.fuzzy.apple_armor_helmet": "Apple Helmet",
       "item.fuzzy.chip": "Chip",
       "entity.fuzzy.bianal": "Bianal",
       "item.fuzzy.strawberrys": "Strawberrys",
@@ -635,6 +700,7 @@
       "item.fuzzy.labusha_spawn_egg": "Labusha Spawn Egg",
       "item.fuzzy.starry_armor_boots": "Starry Boots",
       "block.fuzzy.cuti": "Cuti",
+      "item.fuzzy.apple_armor_leggings": "Apple Leggings",
       "item.fuzzy.oreo_6x_biscuits": "Oreo 6x Biscuits",
       "item.fuzzy.mossy_steak": "Mossy Steak",
       "item.fuzzy.lychee": "Lychee",
@@ -646,10 +712,12 @@
       "item.fuzzy.oreo": "Oreo",
       "item.fuzzy.cuti_bucket": "Cuti Bucket",
       "item.fuzzy.oi_oi_oi.desc": "Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi ",
+      "item.fuzzy.apple_armor_chestplate": "Apple Chestplate",
       "item.fuzzy.mossy_beef": "Mossy Beef",
       "fluid.fuzzy.cuti": "Cuti",
       "item.fuzzy.blockers_candy_bar": "Blockers Candy Bar",
       "subtitles.cutecreatures": "Cute Creatures",
+      "item.fuzzy.apple_armor_boots": "Apple Boots",
       "item.fuzzy.mint": "Mint",
       "item.fuzzy.choco_bar": "Choco Bar",
       "item.fuzzy.starry_armor_leggings": "Starry Leggings",

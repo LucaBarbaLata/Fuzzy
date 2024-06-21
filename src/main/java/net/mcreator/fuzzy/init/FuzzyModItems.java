@@ -37,6 +37,7 @@ import net.mcreator.fuzzy.item.ChipItem;
 import net.mcreator.fuzzy.item.BlueAppleItem;
 import net.mcreator.fuzzy.item.BlockersCandyBarItem;
 import net.mcreator.fuzzy.item.BlackBreadItem;
+import net.mcreator.fuzzy.item.AppleArmorItem;
 import net.mcreator.fuzzy.FuzzyMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -67,6 +68,10 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> MOSSY_STEAK = REGISTRY.register("mossy_steak", () -> new MossySteakItem());
 	public static final RegistryObject<Item> PENCIL = REGISTRY.register("pencil", () -> new PencilItem());
 	public static final RegistryObject<Item> OI_OI_OI = REGISTRY.register("oi_oi_oi", () -> new OiOiOiItem());
+	public static final RegistryObject<Item> APPLE_ARMOR_HELMET = REGISTRY.register("apple_armor_helmet", () -> new AppleArmorItem.Helmet());
+	public static final RegistryObject<Item> APPLE_ARMOR_CHESTPLATE = REGISTRY.register("apple_armor_chestplate", () -> new AppleArmorItem.Chestplate());
+	public static final RegistryObject<Item> APPLE_ARMOR_LEGGINGS = REGISTRY.register("apple_armor_leggings", () -> new AppleArmorItem.Leggings());
+	public static final RegistryObject<Item> APPLE_ARMOR_BOOTS = REGISTRY.register("apple_armor_boots", () -> new AppleArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items
