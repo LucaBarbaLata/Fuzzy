@@ -34,6 +34,7 @@ import net.mcreator.fuzzy.item.CuteCreaturesItem;
 import net.mcreator.fuzzy.item.CirozaItem;
 import net.mcreator.fuzzy.item.ChocoBarItem;
 import net.mcreator.fuzzy.item.ChipItem;
+import net.mcreator.fuzzy.item.BlueArmorItem;
 import net.mcreator.fuzzy.item.BlueAppleItem;
 import net.mcreator.fuzzy.item.BlockersCandyBarItem;
 import net.mcreator.fuzzy.item.BlackBreadItem;
@@ -72,6 +73,10 @@ public class FuzzyModItems {
 	public static final RegistryObject<Item> APPLE_ARMOR_CHESTPLATE = REGISTRY.register("apple_armor_chestplate", () -> new AppleArmorItem.Chestplate());
 	public static final RegistryObject<Item> APPLE_ARMOR_LEGGINGS = REGISTRY.register("apple_armor_leggings", () -> new AppleArmorItem.Leggings());
 	public static final RegistryObject<Item> APPLE_ARMOR_BOOTS = REGISTRY.register("apple_armor_boots", () -> new AppleArmorItem.Boots());
+	public static final RegistryObject<Item> BLUE_ARMOR_HELMET = REGISTRY.register("blue_armor_helmet", () -> new BlueArmorItem.Helmet());
+	public static final RegistryObject<Item> BLUE_ARMOR_CHESTPLATE = REGISTRY.register("blue_armor_chestplate", () -> new BlueArmorItem.Chestplate());
+	public static final RegistryObject<Item> BLUE_ARMOR_LEGGINGS = REGISTRY.register("blue_armor_leggings", () -> new BlueArmorItem.Leggings());
+	public static final RegistryObject<Item> BLUE_ARMOR_BOOTS = REGISTRY.register("blue_armor_boots", () -> new BlueArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,4 +1,5 @@
 {
+  "item.fuzzy.blue_armor_helmet": "Blue Helmet",
   "item.fuzzy.mossheep_spawn_egg": "Mossy Cow Spawn Egg",
   "item.fuzzy.starry_armor_chestplate": "Starry Chestplate",
   "entity.fuzzy.labusha": "Labusha",
@@ -24,9 +25,12 @@
   "item.fuzzy.cuti_bucket": "Cuti Bucket",
   "item.fuzzy.oi_oi_oi.desc": "Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi Oi ",
   "item.fuzzy.apple_armor_chestplate": "Apple Chestplate",
+  "item.fuzzy.blue_armor_boots": "Blue Boots",
   "item.fuzzy.mossy_beef": "Mossy Beef",
   "fluid.fuzzy.cuti": "Cuti",
+  "item.fuzzy.blue_armor_chestplate": "Blue Chestplate",
   "item.fuzzy.blockers_candy_bar": "Blockers Candy Bar",
+  "item.fuzzy.blue_armor_leggings": "Blue Leggings",
   "subtitles.cutecreatures": "Cute Creatures",
   "item.fuzzy.apple_armor_boots": "Apple Boots",
   "item.fuzzy.mint": "Mint",

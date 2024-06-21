@@ -60,6 +60,10 @@ public class FuzzyModTabs {
 			tabData.accept(FuzzyModItems.APPLE_ARMOR_CHESTPLATE.get());
 			tabData.accept(FuzzyModItems.APPLE_ARMOR_LEGGINGS.get());
 			tabData.accept(FuzzyModItems.APPLE_ARMOR_BOOTS.get());
+			tabData.accept(FuzzyModItems.BLUE_ARMOR_HELMET.get());
+			tabData.accept(FuzzyModItems.BLUE_ARMOR_CHESTPLATE.get());
+			tabData.accept(FuzzyModItems.BLUE_ARMOR_LEGGINGS.get());
+			tabData.accept(FuzzyModItems.BLUE_ARMOR_BOOTS.get());
 		}
 	}
 }
