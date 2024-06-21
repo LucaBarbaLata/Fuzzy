@@ -564,7 +564,7 @@
       "name": "AquaticSheep",
       "type": "livingentity",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "aquatic_sheep",
       "metadata": {
@@ -580,7 +580,7 @@
       "name": "BlueApplePlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 44,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blue_apple_player_finishes_using_item",
       "metadata": {
@@ -612,7 +612,7 @@
       "name": "OiOiOi",
       "type": "musicdisc",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "oi_oi_oi",
       "metadata": {
@@ -665,7 +665,7 @@
       "name": "AppleArmor",
       "type": "armor",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "apple_armor",
       "metadata": {
@@ -695,7 +695,7 @@
       "name": "BlueArmor",
       "type": "armor",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blue_armor",
       "metadata": {
