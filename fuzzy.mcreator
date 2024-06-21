@@ -815,9 +815,10 @@
   "workspaceSettings": {
     "modid": "fuzzy",
     "modName": "Fuzzy",
-    "version": "2.4.5",
+    "version": "2.6.1",
     "description": "A cute mod that adds so much cute stuff!!!",
     "author": "LucaBarbaLata, David",
+    "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -825,6 +826,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.fuzzy"
   },
   "mcreatorVersion": 202400118518
