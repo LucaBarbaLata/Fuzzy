@@ -34,7 +34,10 @@
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 16,
+    "onFinishUsingItem": {
+      "name": "BlueApplePlayerFinishesUsingItem"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
